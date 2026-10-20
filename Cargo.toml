@@ -1,0 +1,10 @@
+[package]
+name = "fx82"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.33.3"
+[profile.release]
+lto = true
+opt-level = 3
